@@ -3,3 +3,19 @@
   background-image: linear-gradient(to right, #cddafd, #e5b3fe);
   border-radius: 20px;
 }
+
+.city-description {
+  list-style: none;
+  text-align: left;
+  color: #495057;
+}
+
+.weather-description {
+  list-style: none;
+  color: #495057;
+}
+
+.search-engine {
+  margin-top: 10px;
+  margin-left: 15px;
+}
