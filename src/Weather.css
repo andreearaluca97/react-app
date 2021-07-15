@@ -1,4 +1,5 @@
 .Weather {
-  border: 3px solid #dadde1;
-  background-image: linear-gradient(0deg, #c8e7ff, #ffcbf2);
+  border: 2px solid #dadde1;
+  background-image: linear-gradient(to right, #cddafd, #e5b3fe);
+  border-radius: 20px;
 }
