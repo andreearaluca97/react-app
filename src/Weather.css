@@ -67,9 +67,11 @@ footer {
 
 .Weather .form-control {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: black;
   border-radius: 10px;
   background-image: linear-gradient(to right, #f6f7f8, #a373b9);
+  font-weight: bold;
+  opacity: 0.9;
 }
 
 .linkedin-img {
