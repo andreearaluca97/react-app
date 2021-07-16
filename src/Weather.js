@@ -32,10 +32,11 @@ export default function Weather() {
             height="70"
             alt="cloudy"
           ></img>
-          4º C
         </div>
         <div className="col-6">
           <ul className="weather-description">
+            <li>Temperature 4º C</li>
+            <hr />
             <li>Precipitation: 55%</li>
             <li>Humidity: 75%</li>
             <li>Wind: 20km/h</li>
