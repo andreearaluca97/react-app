@@ -18,7 +18,7 @@ export default function Weather(props) {
       city: response.data.name,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      iconUrl: "https://image.flaticon.com/icons/png/512/2204/2204335.png",
+      icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
     });
   }
