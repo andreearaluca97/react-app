@@ -80,3 +80,7 @@ footer {
   width: 18px;
   height: 18px;
 }
+
+.unit a {
+  text-decoration: none;
+}
