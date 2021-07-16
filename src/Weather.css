@@ -1,9 +1,10 @@
 .Weather {
-  border: 2px solid #dadde1;
+  border: 1px solid #050505;
   background-image: linear-gradient(to right, #cddafd, #e5b3fe);
   border-radius: 20px;
   padding: 8px;
   margin: 30px auto;
+  box-shadow: 10px 15px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .Weather h1 {
