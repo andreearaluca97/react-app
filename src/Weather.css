@@ -49,10 +49,11 @@ footer {
   font-size: 15px;
 }
 
-.Weather img {
+.Weather canvas {
   height: 60px;
   width: 60px;
   margin-left: 30px;
+  display: inline-block;
 }
 
 .Weather .btn {
