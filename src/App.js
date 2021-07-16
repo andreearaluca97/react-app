@@ -10,19 +10,21 @@ export default function App() {
         <footer>
           Coded by{" "}
           <a
+            className="link"
             href="https://www.linkedin.com/in/andreea-raluca-lazareanu/"
             target="_blank"
             rel="noreferrer"
           >
-            Andreea Raluca Lazareanu
+            <strong>Andreea Raluca Lazareanu</strong>
           </a>{" "}
-          and is{" "}
+          and{" "}
           <a
+            className="link"
             href="https://github.com/andreearaluca97/react-app"
             target="_blank"
             rel="noreferrer"
           >
-            Open-Sourced on Github
+            <strong>Open-Sourced on Github</strong>
           </a>
         </footer>
       </div>

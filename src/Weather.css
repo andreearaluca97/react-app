@@ -2,25 +2,55 @@
   border: 2px solid #dadde1;
   background-image: linear-gradient(to right, #cddafd, #e5b3fe);
   border-radius: 20px;
+  padding: 8px;
+  margin: 30px auto;
 }
 
+.Weather h1 {
+  margin-left: 15px;
+  color: #403592;
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .city-description {
   list-style: none;
   text-align: left;
-  color: #495057;
+  color: #3a317b;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .weather-description {
   list-style: none;
-  color: #495057;
+  padding: 0;
+
+  color: #3a317b;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .search-engine {
   margin-top: 10px;
   margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  margin-left: 15px;
+footer {
+  color: black;
+  text-align: center;
+  color: #3a317b;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+  color: #3a317b;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.Weather img {
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
 }

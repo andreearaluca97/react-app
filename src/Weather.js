@@ -11,22 +11,30 @@ export default function Weather() {
               className="form-control"
               type="search"
               placeholder="Enter your city"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="search" className="btn btn-warning" />
+            <input
+              type="submit"
+              value="search"
+              className="btn btn-danger w-90"
+            />
           </div>
         </div>
       </form>
       <h1>Madrid</h1>
       <ul className="city-description">
-        <li>Wednesday 08: 00</li>
-        <li>Cloudy</li>
+        <li>
+          Wednesday <strong>08: 00</strong>
+        </li>
+        <li>
+          <strong>Cloudy</strong>
+        </li>
       </ul>
       <div className="row">
         <div className="col-6">
           <img
-            className="image-weather"
             src="https://image.flaticon.com/icons/png/512/2204/2204339.png"
             width="70"
             height="70"
@@ -35,11 +43,19 @@ export default function Weather() {
         </div>
         <div className="col-6">
           <ul className="weather-description">
-            <li>Temperature 4º C</li>
+            <li>
+              Temperature: <strong>4º C</strong>
+            </li>
             <hr />
-            <li>Precipitation: 55%</li>
-            <li>Humidity: 75%</li>
-            <li>Wind: 20km/h</li>
+            <li>
+              Precipitation: <strong>55%</strong>
+            </li>
+            <li>
+              Humidity: <strong>75%</strong>
+            </li>
+            <li>
+              Wind: <strong>20km/h</strong>
+            </li>
           </ul>
         </div>
       </div>
