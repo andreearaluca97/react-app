@@ -5,7 +5,7 @@ export default function Weather() {
   return (
     <div className="Weather">
       <form className="search-engine">
-        <div className="row">
+        <div className="row mt-3">
           <div className="col-9">
             <input
               className="form-control"
@@ -15,11 +15,7 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input
-              type="submit"
-              value="search"
-              className="btn btn-danger w-90"
-            />
+            <input type="submit" value="search" className="btn w-90" />
           </div>
         </div>
       </form>
@@ -44,7 +40,7 @@ export default function Weather() {
         <div className="col-6">
           <ul className="weather-description">
             <li>
-              Temperature: <strong>4º C</strong>
+              Temperature: <strong>4º C | F</strong>
             </li>
             <hr />
             <li>

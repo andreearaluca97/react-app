@@ -54,3 +54,18 @@ footer {
   width: 60px;
   margin-left: 30px;
 }
+
+.Weather .btn {
+  background-image: linear-gradient(to bottom, #f1f6fa, #8f69a0);
+  border-radius: 10px;
+  color: black;
+  border: 1px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Weather .form-control {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #f6f7f8, #a373b9);
+}
