@@ -3,9 +3,11 @@ import "./Weather.css";
 import axios from "axios";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -15,7 +17,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       iconUrl: "https://image.flaticon.com/icons/png/512/2204/2204335.png",
-      date: "sunday 18:00",
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -40,7 +42,9 @@ export default function Weather(props) {
         <h1>{weatherData.city}</h1>
         <ul className="city-description">
           <li className="text-capitalize">
-            <strong>{weatherData.date}</strong>
+            <strong>
+              <FormattedDate date={weatherData.date} />
+            </strong>
           </li>
           <li className="text-capitalize">
             <strong>{weatherData.description}</strong>
