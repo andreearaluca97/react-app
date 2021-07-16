@@ -34,7 +34,7 @@ export default function App() {
           <img
             className="github-img"
             src="https://image.flaticon.com/icons/png/512/733/733553.png"
-            alt="linkedin"
+            alt="github"
           ></img>{" "}
         </footer>
       </div>
