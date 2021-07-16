@@ -69,3 +69,13 @@ footer {
   border-radius: 10px;
   background-image: linear-gradient(to right, #f6f7f8, #a373b9);
 }
+
+.linkedin-img {
+  width: 18px;
+  height: 18px;
+}
+
+.github-img {
+  width: 18px;
+  height: 18px;
+}

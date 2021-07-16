@@ -15,7 +15,12 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <strong>Andreea Raluca Lazareanu</strong>
+            <strong>Andreea Raluca Lazareanu </strong>
+            <img
+              className="linkedin-img"
+              src="https://image.flaticon.com/icons/png/512/174/174857.png"
+              alt="linkedin"
+            ></img>{" "}
           </a>{" "}
           and{" "}
           <a
@@ -24,8 +29,13 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <strong>Open-Sourced on Github</strong>
+            <strong>Open-Sourced on Github </strong>
           </a>
+          <img
+            className="github-img"
+            src="https://image.flaticon.com/icons/png/512/733/733553.png"
+            alt="linkedin"
+          ></img>{" "}
         </footer>
       </div>
     </div>
