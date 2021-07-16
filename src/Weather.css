@@ -83,4 +83,7 @@ footer {
 
 .unit a {
   text-decoration: none;
+  color: inherit;
+
+  color: #3a317b;
 }
