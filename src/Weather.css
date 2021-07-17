@@ -90,3 +90,9 @@ footer {
 
   color: #3a317b;
 }
+
+.weather-icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 12px;
+}
