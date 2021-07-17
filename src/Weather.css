@@ -24,10 +24,16 @@
 
 .weather-description {
   list-style: none;
-  padding: 0;
-
+  background-image: linear-gradient(to right, #f8edeb, #cddafd);
+  border: 1px solid;
+  padding: 3px;
+  width: 250px;
+  height: 130px;
+  box-shadow: 10px 15px 15px 15px rgba(0, 0, 0, 0.2);
   color: #3a317b;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .search-engine {
@@ -95,4 +101,6 @@ footer {
   width: 60px;
   height: 60px;
   margin-left: 30px;
+  display: inline-block;
 }
+
