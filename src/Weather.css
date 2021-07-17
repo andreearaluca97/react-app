@@ -56,19 +56,13 @@ footer {
   font-size: 15px;
 }
 
-.Weather canvas {
-  height: 60px;
-  width: 60px;
-  margin-left: 30px;
-  display: inline-block;
-}
-
 .Weather .btn {
   background-image: linear-gradient(to bottom, #f1f6fa, #8f69a0);
   border-radius: 10px;
   color: black;
   border: 1px black;
   font-family: Arial, Helvetica, sans-serif;
+  border: 1px inset;
 }
 
 .Weather .form-control {
