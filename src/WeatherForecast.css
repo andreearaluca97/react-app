@@ -1,6 +1,14 @@
 .WeatherForecast {
   text-align: center;
-  padding: 20px;
+  list-style: none;
+  background-image: linear-gradient(to right, #cddafd #f8edeb);
+
+  box-shadow: 10px 15px 15px 15px rgba(0, 0, 0, 0.2);
+  color: #3a317b;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
 }
 .WeatherForecast-icon {
   margin-left: -90px;
