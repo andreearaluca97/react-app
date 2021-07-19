@@ -22,7 +22,6 @@ export default function App() {
               alt="linkedin"
             ></img>{" "}
           </a>{" "}
-          and{" "}
           <a
             className="link"
             href="https://github.com/andreearaluca97/react-app"
@@ -36,6 +35,19 @@ export default function App() {
             src="https://image.flaticon.com/icons/png/512/733/733553.png"
             alt="github"
           ></img>{" "}
+          <a
+            className="link"
+            href="https://andreea-react-wheater-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>and hosted on Netlify</strong>
+          </a>{" "}
+          <img
+            className="netlify-img"
+            src="https://image.flaticon.com/icons/png/512/1373/1373161.png"
+            alt="netlify"
+          ></img>
         </footer>
       </div>
     </div>
